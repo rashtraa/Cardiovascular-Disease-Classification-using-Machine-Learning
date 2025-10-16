@@ -82,14 +82,14 @@ Run the cells in the notebook to see the analysis and model training.
 
 
 
-#Analysis and Model
+# Analysis and Model
 
-*The heart.ipynb notebook contains the complete workflow:
+* The heart.ipynb notebook contains the complete workflow:
 
-*Exploratory Data Analysis (EDA): Visualizing the relationships between different features and the target variable.
+* Exploratory Data Analysis (EDA): Visualizing the relationships between different features and the target variable.
 
-*Data Preprocessing: Handling categorical variables and scaling numerical features.
+* Data Preprocessing: Handling categorical variables and scaling numerical features.
 
-*Model Building: Training a classification model to predict heart disease.
+* Model Building: Training a classification model to predict heart disease.
 
-*Model Evaluation: Assessing the model's performance using metrics like accuracy, precision, and recall.
+* Model Evaluation: Assessing the model's performance using metrics like accuracy, precision, and recall.
