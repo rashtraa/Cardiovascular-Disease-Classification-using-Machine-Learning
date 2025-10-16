@@ -1,85 +1,78 @@
 # Cardiovascular-Disease-Classification-using-Machine-Learning
 
-Project Overview
+## Project Overview
 
 This project aims to predict the presence of heart disease in patients using a machine learning model. By analyzing a dataset containing various medical attributes, we can build a classifier to determine whether a patient is likely to have heart disease. This can be a valuable tool for assisting healthcare professionals in diagnosing and treating cardiovascular conditions.
 
-Dataset
+## Dataset
 
 The dataset used for this project is heart.csv. It contains 12 columns (features) and a target variable, HeartDisease.
 
-Features:
+## Features:
 
-Age: Age of the patient 
+* Age: Age of the patient 
 
-$$years$$
+  $$years$$
 
-Sex: Sex of the patient 
+* Sex: Sex of the patient 
 
-$$M: Male, F: Female$$
+  $$M: Male, F: Female$$
 
-ChestPainType: Chest pain type 
+* ChestPainType: Chest pain type 
 
-$$TA: Typical Angina, ATA: Atypical Angina, NAP: Non-Anginal Pain, ASY: Asymptomatic$$
+  $$TA: Typical Angina, ATA: Atypical Angina, NAP: Non-Anginal Pain, ASY: Asymptomatic$$
 
-RestingBP: Resting blood pressure 
+* RestingBP: Resting blood pressure 
 
-$$mm Hg$$
+  $$mm Hg$$
 
-Cholesterol: Serum cholesterol 
+* Cholesterol: Serum cholesterol 
 
-$$mm/dl$$
+ $$mm/dl$$
 
-FastingBS: Fasting blood sugar 
+* FastingBS: Fasting blood sugar 
 
-$$1: if FastingBS \> 120 mg/dl, 0: otherwise$$
+ $$1: if FastingBS \> 120 mg/dl, 0: otherwise$$
 
-RestingECG: Resting electrocardiogram results 
+* RestingECG: Resting electrocardiogram results 
 
-$$Normal: Normal, ST: having ST-T wave abnormality, LVH: showing probable or definite left ventricular hypertrophy$$
+ $$Normal: Normal, ST: having ST-T wave abnormality, LVH: showing probable or definite left ventricular hypertrophy$$
 
-MaxHR: Maximum heart rate achieved
+* MaxHR: Maximum heart rate achieved
 
-ExerciseAngina: Exercise-induced angina 
+* ExerciseAngina: Exercise-induced angina 
 
-$$Y: Yes, N: No$$
+ $$Y: Yes, N: No$$
 
-Oldpeak: Oldpeak = ST
+* Oldpeak: Oldpeak = ST
 
-ST_Slope: The slope of the peak exercise ST segment 
+* ST_Slope: The slope of the peak exercise ST segment 
 
-$$Up: upsloping, Flat: flat, Down: downsloping$$
+ $$Up: upsloping, Flat: flat, Down: downsloping$$
 
-HeartDisease: Output class 
+* HeartDisease: Output class 
 
-$$1: heart disease, 0: Normal$$
+ $$1: heart disease, 0: Normal$$
 
-#How to Run This Project
+# How to Run This Project
 
-Clone the repository:
+* Clone the repository:
 
-git clone [https://github.com/YourUsername/heart-disease-prediction.git](https://github.com/YourUsername/heart-disease-prediction.git)
+  git clone [https://github.com/YourUsername/heart-disease-prediction.git](https://github.com/YourUsername/heart-disease-prediction.git)
 
+* Navigate to the project directory:
 
+  cd heart-disease-prediction
 
-Navigate to the project directory:
+* Install the required libraries:
 
-cd heart-disease-prediction
+ pip install pandas numpy matplotlib seaborn scikit-learn jupyter
 
+* Open the Jupyter Notebook:
 
+ jupyter notebook heart.ipynb
 
-Install the required libraries:
-
-pip install pandas numpy matplotlib seaborn scikit-learn jupyter
-
-
-
-Open the Jupyter Notebook:
-
-jupyter notebook heart.ipynb
-
-Run the cells in the notebook to see the analysis and model training.
-
+## Run the cells in the notebook to see the analysis and model training.
 
 
 # Analysis and Model
