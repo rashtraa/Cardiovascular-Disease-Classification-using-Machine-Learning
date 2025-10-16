@@ -54,7 +54,7 @@ HeartDisease: Output class
 
 $$1: heart disease, 0: Normal$$
 
-How to Run This Project
+#How to Run This Project
 
 Clone the repository:
 
@@ -78,18 +78,18 @@ Open the Jupyter Notebook:
 
 jupyter notebook heart.ipynb
 
-
-
 Run the cells in the notebook to see the analysis and model training.
 
-Analysis and Model
 
-The heart.ipynb notebook contains the complete workflow:
 
-Exploratory Data Analysis (EDA): Visualizing the relationships between different features and the target variable.
+#Analysis and Model
 
-Data Preprocessing: Handling categorical variables and scaling numerical features.
+*The heart.ipynb notebook contains the complete workflow:
 
-Model Building: Training a classification model to predict heart disease.
+*Exploratory Data Analysis (EDA): Visualizing the relationships between different features and the target variable.
 
-Model Evaluation: Assessing the model's performance using metrics like accuracy, precision, and recall.
+*Data Preprocessing: Handling categorical variables and scaling numerical features.
+
+*Model Building: Training a classification model to predict heart disease.
+
+*Model Evaluation: Assessing the model's performance using metrics like accuracy, precision, and recall.
